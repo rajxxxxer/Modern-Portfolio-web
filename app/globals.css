@@ -1,10 +1,13 @@
 @import "tailwindcss";
 
+/* Light mode variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Theme inline - not standard CSS but maybe from some plugin? */
+/* You can ignore or remove this if it causes issues */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,6 +15,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode variables using media query */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +23,11 @@
   }
 }
 
+/* Apply colors and font */
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* You can add more dark-mode styles here */
