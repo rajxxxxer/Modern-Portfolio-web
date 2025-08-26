@@ -67,7 +67,7 @@ const ProjectCard = ({ work, isLive }) => {
             href={work.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 text-sm rounded-lg border border-gray-300 hover:bg-gray-100 transition"
+            className="px-4 py-2 text-sm rounded-lg border  bg-green-400 hover:bg-gray-100 transition"
           >
             GitHub
           </a>
