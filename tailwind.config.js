@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  darkMode: 'class', // 🟡 Yeh line zaroori hai dark mode ke liye
+  darkMode: false, // 🟡 Yeh line zaroori hai dark mode ke liye
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
