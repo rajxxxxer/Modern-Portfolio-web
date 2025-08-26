@@ -2,16 +2,20 @@ import { assets } from '@/assets/assets';
 import Image from 'next/image';
 import React from 'react';
 
+
 const Header = () => {
   return (
     <div className="text-center pt-32 pb-20 px-4 sm:px-6 md:px-10 lg:px-16 bg-white">
+     
       {/* Profile Image */}
       <div className="flex justify-center mb-6">
-        <Image
-          className="rounded-full w-28 h-28 sm:w-32 sm:h-32 object-cover shadow-lg"
-          src={assets.profile}
-          alt="Profile"
-        />
+      
+          <Image
+            className="rounded-full w-28 h-28 sm:w-32 sm:h-32 object-cover shadow-lg"
+            src={assets.profile}
+            alt="Profile"
+          />
+       
       </div>
 
       {/* Intro */}
