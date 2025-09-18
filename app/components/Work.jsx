@@ -13,6 +13,21 @@ const workData = [
     github: "https://github.com/rajxxxxer/Flexi.Ai",
     live: "https://flexi-ai-3h15.vercel.app/",
   },
+   {
+    title: "School Management App",
+    description: `A comprehensive school management application that streamlines administrative tasks, enhances communication, and improves overall efficiency for educational institutions.`,
+    bgImage: "/Screenshot (84).png",
+    github: "https://github.com/rajxxxxer/Reno-Platform-Assign",
+    live: "https://reno-platform-assign-em.vercel.app/",
+  },
+   {
+    title: "Stock Ticker Application – Real-Time Stock Analysis Tool",
+    description: `A real-time stock analysis tool that provides users with up-to-date information on stock prices, trends, and market news.`,
+    bgImage: "/Screenshot (83).png",
+    github: "https://github.com/rajxxxxer/-Trade-Brains-assign",
+    live: "https://trade-brains-assign.vercel.app/",
+  },
+
 ];
 
 const WorkData = [
